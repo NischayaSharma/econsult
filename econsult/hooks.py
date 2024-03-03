@@ -226,4 +226,17 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
-
+fixtures = [
+    {"dt": "Custom Field", "filters": [["module", "=", "Econsult"]]},
+    # {"dt": "Custom Script", "filters": [["module", "=", "Econsult"]]},
+    {"dt": "Property Setter", "filters": [["module", "=", "Econsult"]]},
+    {"dt": "Print Format", "filters": [["module", "=", "Econsult"]]},
+    {"dt": "Notification", "filters": [["module", "=", "Econsult"]]},
+    {"dt": "Web Page", "filters": [["module", "=", "Econsult"]]},
+    # {"dt": "Workflow", "filters": [["module", "=", "Econsult"]]},
+    # {"dt": "Role Permission", "filters": [["module", "=", "Econsult"]]},
+    {"dt": "Page", "filters": [["module", "=", "Econsult"]]},
+    {"dt": "Report", "filters": [["module", "=", "Econsult"]]},
+    # {"dt": "Letter Head", "filters": [["module", "=", "Econsult"]]},
+    # {"dt": "Terms and Conditions", "filters": [["module", "=", "Econsult"]]}
+]
